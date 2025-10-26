@@ -12,4 +12,4 @@ O Portfólio é adaptado para a maioria de telas comuns. Além disso, a experên
 
 ---
 
-Portfólio 👉 [🔗](https://eupedrobarbosa03.github.io/portfolio/)
+Portfólio 👉 [🔗 Clique aqui](https://eupedrobarbosa03.github.io/portfolio/)
