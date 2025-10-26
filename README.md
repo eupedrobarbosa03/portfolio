@@ -21,10 +21,14 @@ Portfólio 👉 [🔗 Clique aqui](https://eupedrobarbosa03.github.io/portfolio/
 
 🛠️ **Funcionalidades**
 
-✅ Pesquisar projetos na área de projetos
-✅ Botão de rolagem suave para voltar ao topo
-✅ Efeitos de drop-shadow em ícones de linguagens
-✅ Menu de navegação para telas menores como celulares, tablet's, etc
+✅ Pesquisar projetos na área de projetos;  
+
+✅ Botão de rolagem suave para voltar ao topo;  
+
+✅ Efeitos de drop-shadow em ícones de linguagens;  
+
+✅ Menu de navegação para telas menores como celulares, tablet's, etc;  
+
 ✅ Efeito no título "PEDRO.DEV", que é alterando de cores — branco e cinza.
 
 ---
