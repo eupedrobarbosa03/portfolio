@@ -43,4 +43,4 @@ Portfólio 👉 [🔗 Clique aqui](https://eupedrobarbosa03.github.io/portfolio/
 
 📜 Nota Final
 
-Esse portfólio foi essencial para aprimorar ainda mais lógica de programação com lógica de pesquisas, efeitos, etc. Além disso foi fundamental para o aprimoramento em foco de experência de usuário.
+Esse portfólio foi essencial para aprimorar ainda mais lógica de programação com lógica de pesquisas, efeitos, etc. Além disso foi fundamental para o aprimoramento em foco da experência de usuário. O Portfólio foi muito trabalhado para se adaptar na maioria de telas comuns, como celulares, tablet's, notebook's e TV's.
