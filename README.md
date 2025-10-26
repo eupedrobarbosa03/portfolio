@@ -35,9 +35,12 @@ Portfólio 👉 [🔗 Clique aqui](https://eupedrobarbosa03.github.io/portfolio/
 
 ✅ Menu de navegação para telas menores como celulares, tablet's, etc;  
 
-✅ Efeito no título "PEDRO.DEV", que é alterando de cores — branco e cinza.
+✅ Efeito no título "PEDRO.DEV", que é alterando de cores — branco e cinza;  
+
+✅ Seção de detalhes para cada projeto clicado.
 
 ---
 
 📜 Nota Final
 
+Esse portfólio foi essencial para aprimorar ainda mais lógica de programação com lógica de pesquisas, efeitos, etc. Além disso foi fundamental para o aprimoramento em foco de experência de usuário.
