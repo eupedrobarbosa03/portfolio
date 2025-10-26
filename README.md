@@ -17,6 +17,8 @@ O Portfólio é adaptado para a maioria de telas comuns. Além disso, a experên
 
 Portfólio 👉 [🔗 Clique aqui](https://eupedrobarbosa03.github.io/portfolio/)
 
+---
+
 🛠️ **Funcionalidades**
 
 ✅ Pesquisar projetos na área de projetos;
@@ -25,9 +27,9 @@ Portfólio 👉 [🔗 Clique aqui](https://eupedrobarbosa03.github.io/portfolio/
 ✅ Menu de navegação para telas menores como celulares, tablet's, etc;
 ✅ Efeito no título "PEDRO.DEV", que é alterando de cores — branco e cinza.
 
---
+---
 
-💻 **Tecnologias**
+💻 **Tecnologias **
 
 <div align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="20" height="20"/>
@@ -35,4 +37,4 @@ Portfólio 👉 [🔗 Clique aqui](https://eupedrobarbosa03.github.io/portfolio/
   <img src="https://cdn.simpleicons.org/javascript/F7DF1E" width="20" height="20"/>
 </div>
 
---
+---
