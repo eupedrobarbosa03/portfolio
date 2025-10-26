@@ -1,0 +1,159 @@
+@media screen and (max-width: 580px) {
+
+    .main_container {
+        padding: 2.5rem 3rem;
+    }
+
+    .header_container {
+        z-index: 0;
+    }
+
+    .navbar_container {
+        display: none;
+    }
+
+    .menu_navbar {
+        display: block;
+    }
+
+    .navbar_container.active {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 100px;
+        box-sizing: border-box;
+        padding: 1.5rem;
+        z-index: 1;
+        background-color: #111111;
+        align-items: start;
+        left: 0px;
+        width: 100%;
+        opacity: 1;
+    }
+
+    .my_selfie {
+        height: 200px;
+        width: 200px;
+    }
+
+    .section_container_i_about {
+        flex-direction: column;
+    }
+
+    .text_about {
+        padding: .8rem 0;
+    }
+
+    .container_profiles {
+        padding: 0;
+    }
+
+    .header_details_project {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title_dev_front_end {
+        font-size: 1.2rem;
+    }
+
+    #more_info_dev_front_end {
+        font-size: .7rem;
+    }
+
+    .section_container_details_project {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section_container_about {
+        padding: 1rem;
+    }
+
+    .section_container_about_my_portfolio {
+        flex-direction: column;
+        gap: 50px;
+        padding: 1.5rem;
+        margin-top: 50px;
+    }
+
+    .footer_container {
+        padding: 2.5rem 2rem;
+    }
+
+    .first_footer {
+        flex-direction: column;
+    }
+
+    .container_footer_name p {
+        font-size: 1.2rem;
+        font-weight: lighter;
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (max-width: 860px) {
+
+    .section_container_i_about {
+        flex-direction: column;
+    }
+
+    .section_container_details_project {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .section_container_about_my_portfolio {
+        flex-direction: column;
+        gap: 50px;
+        padding: 1rem;
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .main_container {
+        padding: 2.2rem 3rem;
+    }
+
+    .section_container_i_about {
+        flex-direction: column;
+    }
+
+    .container_projects {
+        gap: 20px;
+    }
+
+    .title_dev_front_end {
+        font-size: 1.3rem;
+    }
+
+    .section_container_details_project {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .section_container_details_project {
+        justify-content: center;
+        width: 90%;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .about_my_portfolio {
+        flex: .9;
+        padding: 3rem 0 0 1rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

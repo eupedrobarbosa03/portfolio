@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/index.css">
+    <link rel="stylesheet" href="src/css/responsive/queries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="shortcut icon" href="assets/icons/javascript.svg" type="image/x-icon">
+    <title>Portfólio</title>
+</head>
+<body id="home">
+
+    <main class="main_container">
+        <header class="header_container" id="header_container">
+            <h2 class="title_header">Pedro<span>.dev</span></h2>
+            <button class="menu_navbar">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <nav class="navbar_container">
+                <a href="#home">Home</a>
+                <a href="#projects">Projetos</a>
+                <a href="#about_portfolio">Sobre</a>
+                <a href="https://github.com/eupedrobarbosa03" target="_blank">Github</a>
+            </nav>
+        </header>
+
+        <section class="section_container_i_about">
+            <section class="section_my_selfie">
+                <img src="assets/img/minha_foto.jpeg" class="my_selfie" alt="my_selfie">
+            </section>
+            <section class="section_container_about">
+                <p class="text_about">
+                    Olá — meu nome é Pedro Henrique, tenho 19 anos. Sempre fui um cara que gostou de tecnologia, e nesses últimos tempos comecei a entrar no mundo dos códigos. Meu objetivo principal é se tornar um <mark class="mark_style">desenvolvedor full-stack</mark>, entretanto, de começo é se tornar <mark class="mark_style">desenvolvedor front-end</mark>. Atualmente possuo conhecimentos em <mark class="mark_style">html</mark>, <mark class="mark_style">css</mark>, <mark class="mark_style">javascript</mark>, <mark class="mark_style">typescript</mark> e <mark class="mark_style">react</mark>. 
+                </p>
+                <div class="container_profiles">
+                    <a href="https://github.com/eupedrobarbosa03" target="_blank">
+                        <i class="fa-brands fa-github icon_profile" id="icon_github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/eupedrobarbosa/" target="_blank">
+                        <i class="fa-brands fa-linkedin icon_profile" id="icon_linkedin"></i>
+                    </a>
+                </div>
+            </section>
+        </section>
+
+        <section class="section_container_front_end">
+            <h1 class="title_dev_front_end">Desenvolvedor Front-End</h1>
+            <p id="more_info_dev_front_end">HTML, css, javascript, typescript e react</p>
+            <section class="section_container_languages">
+                <img src="assets/icons/html.svg" alt="html" class="icon_language" id="html">
+                <img src="assets/icons/css.svg" alt="css" class="icon_language" id="css">
+                <img src="assets/icons/javascript.svg" alt="javascript" class="icon_language" id="javascript">
+                <img src="assets/icons/typescript.svg" alt="typescript" class="icon_language" id="typescript">
+                <img src="assets/icons/react.svg" alt="react" class="icon_language" id="react">
+            </section>
+        </section>
+
+
+        <section class="section_container_projects" id="projects">
+
+            <h2 class="title_section_projects">Projetos</h2>
+            
+            <div class="container_search_project">
+                <input type="search" class="input_search_project" placeholder="Buscar projetos" data-search_value>
+                <button class="button_search" data-button_search>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+            <div class="line_separator"></div>
+
+            <p class="search_failed">Nada encontrado...</p>
+
+            <section class="container_projects">
+
+                <div class="card_project" id="postal_code_brazil" data-project>
+                    <img src="assets/img/posta_code_brazil.png" class="image_project" alt="project postal_code_brazil">
+                    <div class="container_header_card_project">
+                        <h2 class="project_name">Postal Code Brazil</h2>
+                        <a href="https://github.com/eupedrobarbosa03/postal-code-brazil" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square link_project"></i>
+                        </a>
+                    </div>
+                    <div class="container_details_languages">
+                        <div class="container_languages_project">
+                            <img src="assets/icons/html.svg" class="icon_language_project" alt="html">
+                            <img src="assets/icons/css.svg" class="icon_language_project" alt="css">
+                            <img src="assets/icons/javascript.svg" class="icon_language_project" alt="javascript">
+                        </div>
+                        <div class="container_details">
+                            <button class="button_details_project" data-button_details_project>
+                            Detalhes
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card_project" id="generator_boxshadow" data-project>
+                    <img src="assets/img/box_shadow.png" class="image_project" alt="project generator_boxshadow">
+                    <div class="container_header_card_project">
+                        <h2 class="project_name">Generator BoxShadow</h2>
+                        <a href="https://github.com/eupedrobarbosa03/generator-boxShadow" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square link_project"></i>
+                        </a>
+                    </div>
+                    <div class="container_details_languages">
+                        <div class="container_languages_project">
+                            <img src="assets/icons/html.svg" class="icon_language_project" alt="html">
+                            <img src="assets/icons/css.svg" class="icon_language_project" alt="css">
+                            <img src="assets/icons/javascript.svg" class="icon_language_project" alt="javascript">
+                            <img src="assets/icons/react.svg" class="icon_language_project" alt="react">
+                        </div>
+                        <div class="container_details">
+                            <button class="button_details_project" data-button_details_project>
+                            Detalhes
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card_project" id="expense_management" data-project>
+                    <img src="assets/img/expense_management.png" class="image_project" alt="project expense_management">
+                    <div class="container_header_card_project">
+                        <h2 class="project_name">Expense Management</h2>
+                        <a href="https://github.com/eupedrobarbosa03/expense-management" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square link_project"></i>
+                        </a>
+                    </div>
+                    <div class="container_details_languages">
+                        <div class="container_languages_project">
+                            <img src="assets/icons/html.svg" class="icon_language_project" alt="html">
+                            <img src="assets/icons/css.svg" class="icon_language_project" alt="css">
+                            <img src="assets/icons/javascript.svg" class="icon_language_project" alt="javascript">
+                            <img src="assets/icons/react.svg" class="icon_language_project" alt="react">
+                        </div>
+                        <div class="container_details">
+                            <button class="button_details_project" data-button_details_project>
+                            Detalhes
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card_project" id="to-do_list" data-project>
+                    <img src="assets/img/todo_list.png" class="image_project" alt="project todo_list">
+                    <div class="container_header_card_project">
+                        <h2 class="project_name">To-do List</h2>
+                        <a href="https://github.com/eupedrobarbosa03/todo-list" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square link_project"></i>
+                        </a>
+                    </div>
+                    <div class="container_details_languages">
+                        <div class="container_languages_project">
+                            <img src="assets/icons/html.svg" class="icon_language_project" alt="html">
+                            <img src="assets/icons/css.svg" class="icon_language_project" alt="css">
+                            <img src="assets/icons/javascript.svg" class="icon_language_project" alt="javascript">
+                        </div>
+                        <div class="container_details">
+                            <button class="button_details_project" data-button_details_project>
+                            Detalhes
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card_project" id="simple_calculator" data-project>
+                    <img src="assets/img/simple_calculator.png" class="image_project" alt="project simple_calculator">
+                    <div class="container_header_card_project">
+                        <h2 class="project_name">Simple Calculator</h2>
+                        <a href="https://github.com/eupedrobarbosa03/simple-calculator" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square link_project"></i>
+                        </a>
+                    </div>
+                    <div class="container_details_languages">
+                        <div class="container_languages_project">
+                            <img src="assets/icons/html.svg" class="icon_language_project" alt="html">
+                            <img src="assets/icons/css.svg" class="icon_language_project" alt="css">
+                            <img src="assets/icons/javascript.svg" class="icon_language_project" alt="javascript">
+                        </div>
+                        <div class="container_details">
+                            <button class="button_details_project" data-button_details_project>
+                            Detalhes
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card_project" id="flexbox_page" data-project>
+                    <img src="assets/img/flexbox_page.png" class="image_project" alt="project flebox_page">
+                    <div class="container_header_card_project">
+                        <h2 class="project_name">Flexbox</h2>
+                        <a href="https://github.com/eupedrobarbosa03/flexbox-page" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square link_project"></i>
+                        </a>
+                    </div>
+                    <div class="container_details_languages">
+                        <div class="container_languages_project">
+                            <img src="assets/icons/html.svg" class="icon_language_project" alt="html">
+                            <img src="assets/icons/css.svg" class="icon_language_project" alt="css">
+                            <img src="assets/icons/javascript.svg" class="icon_language_project" alt="javascript">
+                        </div>
+                        <div class="container_details">
+                            <button class="button_details_project" data-button_details_project>
+                            Detalhes
+                            </button>
+                        </div>
+                    </div>
+                </div>            
+
+                <div class="card_project" id="password_generator" data-project>
+                    <img src="assets/img/generator_password.png" class="image_project" alt="project password_generator">
+                    <div class="container_header_card_project">
+                        <h2 class="project_name">Password Generator</h2>
+                        <a href="https://github.com/eupedrobarbosa03/password-generator" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square link_project"></i>
+                        </a>
+                    </div>
+                    <div class="container_details_languages">
+                        <div class="container_languages_project">
+                            <img src="assets/icons/html.svg" class="icon_language_project" alt="html">
+                            <img src="assets/icons/css.svg" class="icon_language_project" alt="css">
+                            <img src="assets/icons/javascript.svg" class="icon_language_project" alt="javascript">
+                        </div>
+                        <div class="container_details">
+                            <button class="button_details_project" data-button_details_project>
+                            Detalhes
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card_project" id="student_situation" data-project>
+                    <img src="assets/img/student_situation.png" class="image_project" alt="project student_situation">
+                    <div class="container_header_card_project">
+                        <h2 class="project_name">Student Situation</h2>
+                        <a href="https://github.com/eupedrobarbosa03/student-situation" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square link_project"></i>
+                        </a>
+                    </div>
+                    <div class="container_details_languages">
+                        <div class="container_languages_project">
+                            <img src="assets/icons/html.svg" class="icon_language_project" alt="html">
+                            <img src="assets/icons/css.svg" class="icon_language_project" alt="css">
+                            <img src="assets/icons/javascript.svg" class="icon_language_project" alt="javascript">
+                        </div>
+                        <div class="container_details">
+                            <button class="button_details_project" data-button_details_project>
+                            Detalhes
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card_project" id="controle_produtos" data-project>
+                    <img src="assets/img/controle_produtos.png" class="image_project" alt="project controle_produtos">
+                    <div class="container_header_card_project">
+                        <h2 class="project_name">Controle Produtos</h2>
+                        <a href="https://github.com/eupedrobarbosa03/controle-produtos" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square link_project"></i>
+                        </a>
+                    </div>
+                    <div class="container_details_languages">
+                        <div class="container_languages_project">
+                            <img src="assets/icons/html.svg" class="icon_language_project" alt="html">
+                            <img src="assets/icons/css.svg" class="icon_language_project" alt="css">
+                            <img src="assets/icons/javascript.svg" class="icon_language_project" alt="javascript">
+                        </div>
+                        <div class="container_details">
+                            <button class="button_details_project" data-button_details_project>
+                            Detalhes
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card_project" id="painel_admin" data-project>
+                    <img src="assets/img/painel_admin.png" class="image_project" alt="project painel_admin">
+                    <div class="container_header_card_project">
+                        <h2 class="project_name">Painel Admin</h2>
+                        <a href="https://github.com/eupedrobarbosa03/painel-admin" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square link_project"></i>
+                        </a>
+                    </div>
+                    <div class="container_details_languages">
+                        <div class="container_languages_project">
+                            <img src="assets/icons/html.svg" class="icon_language_project" alt="html">
+                            <img src="assets/icons/css.svg" class="icon_language_project" alt="css">
+                            <img src="assets/icons/javascript.svg" class="icon_language_project" alt="javascript">
+                        </div>
+                        <div class="container_details">
+                            <button class="button_details_project" data-button_details_project>
+                            Detalhes
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card_project" id="academy_control" data-project>
+                    <img src="assets/img/academy.png" class="image_project" alt="project academy_control">
+                    <div class="container_header_card_project">
+                        <h2 class="project_name">Academy Control</h2>
+                        <a href="https://github.com/eupedrobarbosa03/academy-control" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square link_project"></i>
+                        </a>
+                    </div>
+                    <div class="container_details_languages">
+                        <div class="container_languages_project">
+                            <img src="assets/icons/html.svg" class="icon_language_project" alt="html">
+                            <img src="assets/icons/css.svg" class="icon_language_project" alt="css">
+                            <img src="assets/icons/javascript.svg" class="icon_language_project" alt="javascript">
+                        </div>
+                        <div class="container_details">
+                            <button class="button_details_project" data-button_details_project>
+                            Detalhes
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card_project" id="chat_bot" data-project>
+                    <img src="assets/img/chatbot.png" class="image_project" alt="project chatbot">
+                    <div class="container_header_card_project">
+                        <h2 class="project_name">Chat Bot</h2>
+                        <a href="https://github.com/eupedrobarbosa03/chatbot" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square link_project"></i>
+                        </a>
+                    </div>
+                    <div class="container_details_languages">
+                        <div class="container_languages_project">
+                            <img src="assets/icons/html.svg" class="icon_language_project" alt="html">
+                            <img src="assets/icons/css.svg" class="icon_language_project" alt="css">
+                            <img src="assets/icons/javascript.svg" class="icon_language_project" alt="javascript">
+                        </div>
+                        <div class="container_details">
+                            <button class="button_details_project" data-button_details_project>
+                            Detalhes
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        </section>
+
+        <section class="section_container_details_project">
+            
+            <div class="container_content"></div>
+
+            <div class="container_button_exit">
+                <button class="button_exit">Voltar</button>
+            </div>
+            
+        </section>
+
+        <section class="section_container_count_projects">
+            <p class="title_quantity_projects">Quantidade de Projetos: <span id="quantity" data-quantity_projects>0</span></p>
+            <div class="container_box_count">
+                <div class="box_count"></div>
+                <div class="box_count"></div>
+                <div class="box_count"></div>
+                <div class="box_count"></div>
+                <div class="box_count"></div>
+                <div class="box_count"></div>
+                <div class="box_count"></div>
+                <div class="box_count"></div>
+                <div class="box_count"></div>
+                <div class="box_count"></div>
+                <div class="box_count"></div>
+                <div class="box_count"></div>
+            </div>
+        </section>
+
+        <div class="line_separator"></div>
+
+        <section class="section_container_about_my_portfolio" id="about_portfolio">
+            <div class="about_my_portfolio">
+                <h2>Meu Portfólio</h2>
+                <p>Meu portfólio foi desenvolvido para demonstrar minhas habilidades, projetos, etc. O portfólio foi desenvolvido com html, css e js. O portfólio foi adaptado para qualquer tela, melhorando a experiência de usuário. O meu porftólio, pensado em simplicidade, foi mais um grande projeto realizado por mim, <a href="https://github.com/eupedrobarbosa03" target="_blank" id="link_portfolio_about_my_portfolio">Pedro Henrique</a>.</p>
+                <div class="more_info_my_portfolio">
+                    <div class="languages">
+                        <img src="assets/icons/html.svg" alt="html" class="icon_language_portfolio">
+                        <img src="assets/icons/css.svg" alt="css" class="icon_language_portfolio">
+                        <img src="assets/icons/javascript.svg" alt="javascript" class="icon_language_portfolio">
+                    </div>
+                    <div class="profiles">
+                        <a href="https://github.com/eupedrobarbosa03" target="_blank">
+                            <i class="fa-brands fa-github icon_profile" id="icon_github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container_portfolio_notebook_mobile_image">
+                <img src="assets/img/portfolio_notebook_mobile.svg" class="image_my_portfolio" alt="image example my portfolio">
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer_container">
+        <div class="first_footer">
+            <div class="container_links">
+                <div class="links_">
+                    <a href="#projects">Projetos</a>
+                    <a href="https://github.com/eupedrobarbosa03" target="_blank">Github</a>
+                    <a href="">Repositório</a>
+                </div>
+            </div>
+            <div class="container_footer_name">
+                <p>Pedro Henrique</p>
+                <div class="footer_languages">
+                    <img src="assets/icons/html.svg" class="lang_footer">
+                    <img src="assets/icons/css.svg" class="lang_footer">
+                    <img src="assets/icons/javascript.svg" class="lang_footer">
+                    <img src="assets/icons/typescript.svg" class="lang_footer">
+                    <img src="assets/icons/react.svg" class="lang_footer">
+                </div>
+            </div>
+        </div>
+        <p id="copy_portfolio">Portfólio 2025. ©</p>
+    </footer>
+
+    <a class="button_return_top" href="#home">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <script src="src/js/projectDetails.js" type="module"></script>
+    <script src="src/js/projectSearch.js"></script>
+    <script src="src/js/menu.js"></script>
+    <script src="src/js/titleHeaderEffect.js"></script>
+    <script src="src/js/breathingEffect.js"></script>
+    <script src="src/js/countProjectsEffect.js"></script>
+
+</body>
+</html>
