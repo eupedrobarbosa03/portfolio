@@ -8,4 +8,8 @@ O **Portfólio** foi desenvolvido em html, css e javascript.
 
 ---
 
-💻 O Portfólio é adaptado para a maioria de telas comuns. Além disso, a experência de usuário é agradável com UX/UI. A paleta de cores inclui branco, cinza e preto.
+O Portfólio é adaptado para a maioria de telas comuns. Além disso, a experência de usuário é agradável com UX/UI. A paleta de cores inclui branco, cinza e preto.
+
+---
+
+Portfólio 👉 [Clique aqui para ver](!https://eupedrobarbosa03.github.io/portfolio/)
