@@ -58,7 +58,7 @@ export const projects = [
             <header class="header_details_project">
                 <img src="assets/img/posta_code_brazil.png" class="details_project_image" alt="postal_code_brazil">
                 <div class="more_details">
-                    <h2>Password Generator</h2>
+                    <h2>Postal Code Brazil</h2>
                     <div class="container_info_basic_project">
                         <p>Tipo: <span>Consultar CEP</span></p>
                         <p>Dificuldade: <span>Fácil</span></p>
