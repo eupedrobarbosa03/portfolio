@@ -26,6 +26,33 @@ export const projects = [
         `
     },
     {
+        name: "generator_password_2",
+        html: 
+        `
+            <header class="header_details_project">
+                <img src="assets/img/generator_password_2.png" class="details_project_image" alt="generator_password_2">
+                <div class="more_details">
+                    <h2>Generator Password 2</h2>
+                    <div class="container_info_basic_project">
+                        <p>Tipo: <span>Gerador de Senhas</span></p>
+                        <p>Dificuldade: <span>Fácil</span></p>
+                        <p>Conclusão: <span>15/02/2026</span></p>
+                    </div>
+                    <div class="container_languages_dev_project">
+                        <img src="assets/icons/html.svg" class="icon_language_dev_project" alt="html">
+                        <img src="assets/icons/css.svg" class="icon_language_dev_project" alt="css">
+                        <img src="assets/icons/javascript.svg"  class="icon_language_dev_project" alt="javascript">
+                        <img src="assets/icons/typescript.svg"  class="icon_language_dev_project" alt="javascript">
+                    </div>
+                </div>
+            </header>
+
+            <p class="text_info_project">
+                Generator Password 2 é uma versão atualizada do Generator Password. A nova versão conta com múltiplas escolhas para definir quais tipos de caracteres sua senha pode conter. A nova versão foi desenvolvida em typescript.
+            </p>
+        `
+    },
+    {
         name: "password_generator",
         html: 
         `
