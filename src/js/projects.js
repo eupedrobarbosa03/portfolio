@@ -1,27 +1,27 @@
 export const projects = [
-    {
-        name: "to-do_list",
+        {
+        name: "bank",
         html: 
         `
             <header class="header_details_project">
-                <img src="assets/img/todo_list.png" class="details_project_image" alt="todo_list">
+                <img src="assets/img/bank.png" class="details_project_image" alt="bank">
                 <div class="more_details">
-                    <h2>Todo List</h2>
+                    <h2>Bank-ts</h2>
                     <div class="container_info_basic_project">
-                        <p>Tipo: <span>Gerenciamento de Tarefas</span></p>
-                        <p>Dificuldade: <span>Médio</span></p>
-                        <p>Conclusão: <span>13/07/2025</span></p>
+                        <p>Tipo: <span>Banco Digita (simulação)</span></p>
+                        <p>Dificuldade: <span>Difícil</span></p>
+                        <p>Conclusão: <span>22/02/2026</span></p>
                     </div>
                     <div class="container_languages_dev_project">
-                        <img src="assets/icons/html.svg" class="icon_language_dev_project" alt="html">
-                        <img src="assets/icons/css.svg" class="icon_language_dev_project" alt="css">
+                        <img src="assets/icons/html.svg"  class="icon_language_dev_project" alt="html">
+                        <img src="assets/icons/typescript.svg"  class="icon_language_dev_project" alt="typescript">
                         <img src="assets/icons/javascript.svg"  class="icon_language_dev_project" alt="javascript">
                     </div>
                 </div>
             </header>
 
             <p class="text_info_project">
-                To-do list é um sistema de gerenciamento de tarefas, nele é possível adicionar, editar e excluir tarefas. Ainda conta com atualizações em tempo real. Um excelente projeto para exercitar conceitos e aplicar lógicas mais robustas. Projeto desenvolvido em html, css e javascript.
+                Bank-ts é um sistema que simula um sistema bancário. Todos os métodos só podem ser executados via código. Eu optei por este modo para mostrar de forma direta como funciona a aplicação de conceitos sem interações com o usuário (interface ou input). O sistema conta com diversas funcionalidades: CRUD (criar conta, atualizar contar, deletar consta e pegar contas), sacar, depositar, ver saldo (crédito e débito), limite crédito, pedir empréstimo, comprar com débito ou crédito, realizar transferência via pix e login..
             </p>
         `
     },
@@ -49,6 +49,32 @@ export const projects = [
 
             <p class="text_info_project">
                 Generator Password 2 é uma versão atualizada do Generator Password. A nova versão conta com múltiplas escolhas para definir quais tipos de caracteres sua senha pode conter. A nova versão foi desenvolvida em typescript.
+            </p>
+        `
+    },
+        {
+        name: "to-do_list",
+        html: 
+        `
+            <header class="header_details_project">
+                <img src="assets/img/todo_list.png" class="details_project_image" alt="todo_list">
+                <div class="more_details">
+                    <h2>Todo List</h2>
+                    <div class="container_info_basic_project">
+                        <p>Tipo: <span>Gerenciamento de Tarefas</span></p>
+                        <p>Dificuldade: <span>Médio</span></p>
+                        <p>Conclusão: <span>13/07/2025</span></p>
+                    </div>
+                    <div class="container_languages_dev_project">
+                        <img src="assets/icons/html.svg" class="icon_language_dev_project" alt="html">
+                        <img src="assets/icons/css.svg" class="icon_language_dev_project" alt="css">
+                        <img src="assets/icons/javascript.svg"  class="icon_language_dev_project" alt="javascript">
+                    </div>
+                </div>
+            </header>
+
+            <p class="text_info_project">
+                To-do list é um sistema de gerenciamento de tarefas, nele é possível adicionar, editar e excluir tarefas. Ainda conta com atualizações em tempo real. Um excelente projeto para exercitar conceitos e aplicar lógicas mais robustas. Projeto desenvolvido em html, css e javascript.
             </p>
         `
     },
