@@ -262,32 +262,6 @@ export const projects = [
         `
     },
     {
-        name: "painel_admin",
-        html: 
-        `
-            <header class="header_details_project">
-                <img src="assets/img/painel_admin.png" class="details_project_image" alt="painel_admin">
-                <div class="more_details">
-                    <h2>Painel Admin</h2>
-                    <div class="container_info_basic_project">
-                        <p>Tipo: <span>Administrar Funcionários</span></p>
-                        <p>Dificuldade: <span>Fácil</span></p>
-                        <p>Conclusão: <span>20/04/2025</span></p>
-                    </div>
-                    <div class="container_languages_dev_project">
-                        <img src="assets/icons/html.svg" class="icon_language_dev_project" alt="html">
-                        <img src="assets/icons/css.svg" class="icon_language_dev_project" alt="css">
-                        <img src="assets/icons/javascript.svg"  class="icon_language_dev_project" alt="javascript">
-                    </div>
-                </div>
-            </header>
-
-            <p class="text_info_project">
-                Painel Admin é um sistema que possibilita administrar funcionários. É possível adicionar, editar e remover funcionários. Somente é possível criar e editar salário com base em seu cargo. Projeto desenvolvido em html, css e js.
-            </p>
-        `
-    },
-    {
         name: "academy_control",
         html: 
         `
