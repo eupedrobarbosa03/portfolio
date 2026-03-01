@@ -1,5 +1,31 @@
 export const projects = [
-        {
+    {
+        name: "chat-bph",
+        html: 
+        `
+            <header class="header_details_project">
+                <img src="assets/img/chat-bph.png" class="details_project_image" alt="chat-bph">
+                <div class="more_details">
+                    <h2>Chat-bph</h2>
+                    <div class="container_info_basic_project">
+                        <p>Tipo: Chat, interação.</span></p>
+                        <p>Conclusão: <span>28/02/2026</span></p>
+                    </div>
+                    <div class="container_languages_dev_project">
+                        <img src="assets/icons/html.svg"  class="icon_language_dev_project" alt="html">
+                        <img src="assets/icons/css.svg"  class="icon_language_dev_project" alt="css">
+                        <img src="assets/icons/typescript.svg"  class="icon_language_dev_project" alt="typescript">
+                        <img src="assets/icons/javascript.svg"  class="icon_language_dev_project" alt="javascript">
+                    </div>
+                </div>
+            </header>
+
+            <p class="text_info_project">
+                Chat-bph é um chat desenvolvido para falar sobre mim. O chat possui diversas funcionalidades. Possui comandos, mensagens interativas, etc. É possível alterar o tema para claro ou escuro. A sua principal função é o sistema de ensinamento. É possível ensinar o chat a falar qualquer coisa que não tenha sida predefinido por mim.
+            </p>
+        `
+    },
+    {
         name: "bank",
         html: 
         `
@@ -9,7 +35,6 @@ export const projects = [
                     <h2>Bank-ts</h2>
                     <div class="container_info_basic_project">
                         <p>Tipo: <span>Banco Digita (simulação)</span></p>
-                        <p>Dificuldade: <span>Difícil</span></p>
                         <p>Conclusão: <span>22/02/2026</span></p>
                     </div>
                     <div class="container_languages_dev_project">
@@ -35,7 +60,6 @@ export const projects = [
                     <h2>Generator Password 2</h2>
                     <div class="container_info_basic_project">
                         <p>Tipo: <span>Gerador de Senhas</span></p>
-                        <p>Dificuldade: <span>Fácil</span></p>
                         <p>Conclusão: <span>15/02/2026</span></p>
                     </div>
                     <div class="container_languages_dev_project">
@@ -62,7 +86,6 @@ export const projects = [
                     <h2>Todo List</h2>
                     <div class="container_info_basic_project">
                         <p>Tipo: <span>Gerenciamento de Tarefas</span></p>
-                        <p>Dificuldade: <span>Médio</span></p>
                         <p>Conclusão: <span>13/07/2025</span></p>
                     </div>
                     <div class="container_languages_dev_project">
@@ -88,7 +111,6 @@ export const projects = [
                     <h2>Password Generator</h2>
                     <div class="container_info_basic_project">
                         <p>Tipo: <span>Gerador Senhas</span></p>
-                        <p>Dificuldade: <span>Fácil</span></p>
                         <p>Conclusão: <span>27/04/2025</span></p>
                     </div>
                     <div class="container_languages_dev_project">
@@ -114,7 +136,6 @@ export const projects = [
                     <h2>Password Generator</h2>
                     <div class="container_info_basic_project">
                         <p>Tipo: <span>Consultar CEP</span></p>
-                        <p>Dificuldade: <span>Fácil</span></p>
                         <p>Conclusão: <span>12/09/2025</span></p>
                     </div>
                     <div class="container_languages_dev_project">
@@ -140,7 +161,6 @@ export const projects = [
                     <h2>Simple Calculator</h2>
                     <div class="container_info_basic_project">
                         <p>Tipo: <span>Calculadora</span></p>
-                        <p>Dificuldade: <span>Fácil</span></p>
                         <p>Conclusão: <span>02/08/2025</span></p>
                     </div>
                     <div class="container_languages_dev_project">
@@ -166,7 +186,6 @@ export const projects = [
                     <h2>Generator BoxShadow</h2>
                     <div class="container_info_basic_project">
                         <p>Tipo: <span>Sombras CSS</span></p>
-                        <p>Dificuldade: <span>Médio</span></p>
                         <p>Conclusão: <span>16/07/2025</span></p>
                     </div>
                     <div class="container_languages_dev_project">
@@ -193,7 +212,6 @@ export const projects = [
                     <h2>Flexbox</h2>
                     <div class="container_info_basic_project">
                         <p>Tipo: <span>Estética e Responsividade</span></p>
-                        <p>Dificuldade: <span>Fácil</span></p>
                         <p>Conclusão: <span>02/08/2025</span></p>
                     </div>
                     <div class="container_languages_dev_project">
@@ -219,7 +237,6 @@ export const projects = [
                     <h2>Student Situation</h2>
                     <div class="container_info_basic_project">
                         <p>Tipo: <span>Notas de Aluno</span></p>
-                        <p>Dificuldade: <span>Fácil</span></p>
                         <p>Conclusão: <span>07/05/2025</span></p>
                     </div>
                     <div class="container_languages_dev_project">
@@ -245,7 +262,6 @@ export const projects = [
                     <h2>Controle Produtos</h2>
                     <div class="container_info_basic_project">
                         <p>Tipo: <span>Controle de Produtos</span></p>
-                        <p>Dificuldade: <span>Fácil</span></p>
                         <p>Conclusão: <span>30/05/2025</span></p>
                     </div>
                     <div class="container_languages_dev_project">
@@ -271,7 +287,6 @@ export const projects = [
                     <h2>Academy Control</h2>
                     <div class="container_info_basic_project">
                         <p>Tipo: <span>Academia</span></p>
-                        <p>Dificuldade: <span>Fácil</span></p>
                         <p>Conclusão: <span>03/05/2025</span></p>
                     </div>
                     <div class="container_languages_dev_project">
@@ -297,7 +312,6 @@ export const projects = [
                     <h2>Expense Management</h2>
                     <div class="container_info_basic_project">
                         <p>Tipo: <span>Controle de Despesas</span></p>
-                        <p>Dificuldade: <span>Difícil</span></p>
                         <p>Conclusão: <span>10/08/2025</span></p>
                     </div>
                     <div class="container_languages_dev_project">
@@ -324,7 +338,6 @@ export const projects = [
                     <h2>Chat bot</h2>
                     <div class="container_info_basic_project">
                         <p>Tipo: <span>Chatbot</span></p>
-                        <p>Dificuldade: <span>Fácil</span></p>
                         <p>Conclusão: <span>12/05/2025</span></p>
                     </div>
                     <div class="container_languages_dev_project">
